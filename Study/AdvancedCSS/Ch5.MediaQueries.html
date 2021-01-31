@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>The Xeros Times</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div {
+            background-color: teal;
+            width: 200px;
+            height: 200px;
+        }
+
+        /* Browser 창 크기별 CSS를 다르게 설정 시작 */
+        @media screen and (max-width: 600px) {
+            div {
+                background-color: tomato;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            div {
+                background-color: wheat;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            div {
+                background-color: turquoise;
+            }
+        }
+
+        /* Browser 창 크기별 CSS를 다르게 설정 종료 */
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>
